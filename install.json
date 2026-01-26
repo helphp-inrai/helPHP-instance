@@ -1,0 +1,2399 @@
+{
+    "entries": [
+        {
+            "table": "hierarchy_structure",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "i",
+                    "value": "1"
+                },
+                {
+                    "name": "id_parent",
+                    "type": "i",
+                    "value": "0"
+                },
+                {
+                    "name": "sort_order",
+                    "type": "i",
+                    "value": "1"
+                },
+                {
+                    "name": "order_tree",
+                    "type": "i",
+                    "value": "0"
+                },
+                {
+                    "name": "active",
+                    "type": "i",
+                    "value": "1"
+                },
+                {
+                    "name": "active_tree",
+                    "type": "i",
+                    "value": "1"
+                },
+                {
+                    "name": "name",
+                    "type": "s",
+                    "value": "menu_admin"
+                },
+                {
+                    "name": "create_result",
+                    "type": "i",
+                    "value": "0"
+                }
+            ]
+        },
+        {
+            "table": "hierarchy_structure",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "i",
+                    "value": "2"
+                },
+                {
+                    "name": "id_parent",
+                    "type": "i",
+                    "value": "0"
+                },
+                {
+                    "name": "sort_order",
+                    "type": "i",
+                    "value": "1"
+                },
+                {
+                    "name": "order_tree",
+                    "type": "i",
+                    "value": "0"
+                },
+                {
+                    "name": "active",
+                    "type": "i",
+                    "value": "1"
+                },
+                {
+                    "name": "active_tree",
+                    "type": "i",
+                    "value": "1"
+                },
+                {
+                    "name": "name",
+                    "type": "s",
+                    "value": "menu_public"
+                },
+                {
+                    "name": "create_result",
+                    "type": "i",
+                    "value": "0"
+                }
+            ]
+        },
+        {
+            "table": "hierarchy_structure",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "i",
+                    "value": "3"
+                },
+                {
+                    "name": "id_parent",
+                    "type": "i",
+                    "value": "21"
+                },
+                {
+                    "name": "sort_order",
+                    "type": "i",
+                    "value": "0"
+                },
+                {
+                    "name": "order_tree",
+                    "type": "i",
+                    "value": "0"
+                },
+                {
+                    "name": "active",
+                    "type": "i",
+                    "value": "1"
+                },
+                {
+                    "name": "active_tree",
+                    "type": "i",
+                    "value": "0"
+                },
+                {
+                    "name": "name",
+                    "type": "s",
+                    "value": ""
+                },
+                {
+                    "name": "create_result",
+                    "type": "i",
+                    "value": "0"
+                }
+            ]
+        },
+        {
+            "table": "hierarchy_structure",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "i",
+                    "value": "4"
+                },
+                {
+                    "name": "id_parent",
+                    "type": "i",
+                    "value": "21"
+                },
+                {
+                    "name": "sort_order",
+                    "type": "i",
+                    "value": "1"
+                },
+                {
+                    "name": "order_tree",
+                    "type": "i",
+                    "value": "0"
+                },
+                {
+                    "name": "active",
+                    "type": "i",
+                    "value": "1"
+                },
+                {
+                    "name": "active_tree",
+                    "type": "i",
+                    "value": "0"
+                },
+                {
+                    "name": "name",
+                    "type": "s",
+                    "value": ""
+                },
+                {
+                    "name": "create_result",
+                    "type": "i",
+                    "value": "0"
+                }
+            ]
+        },
+        {
+            "table": "hierarchy_structure",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "i",
+                    "value": "5"
+                },
+                {
+                    "name": "id_parent",
+                    "type": "i",
+                    "value": "21"
+                },
+                {
+                    "name": "sort_order",
+                    "type": "i",
+                    "value": "4"
+                },
+                {
+                    "name": "order_tree",
+                    "type": "i",
+                    "value": "0"
+                },
+                {
+                    "name": "active",
+                    "type": "i",
+                    "value": "1"
+                },
+                {
+                    "name": "active_tree",
+                    "type": "i",
+                    "value": "0"
+                },
+                {
+                    "name": "name",
+                    "type": "s",
+                    "value": ""
+                },
+                {
+                    "name": "create_result",
+                    "type": "i",
+                    "value": "0"
+                }
+            ]
+        },
+        {
+            "table": "hierarchy_structure",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "i",
+                    "value": "6"
+                },
+                {
+                    "name": "id_parent",
+                    "type": "i",
+                    "value": "21"
+                },
+                {
+                    "name": "sort_order",
+                    "type": "i",
+                    "value": "5"
+                },
+                {
+                    "name": "order_tree",
+                    "type": "i",
+                    "value": "0"
+                },
+                {
+                    "name": "active",
+                    "type": "i",
+                    "value": "1"
+                },
+                {
+                    "name": "active_tree",
+                    "type": "i",
+                    "value": "0"
+                },
+                {
+                    "name": "name",
+                    "type": "s",
+                    "value": ""
+                },
+                {
+                    "name": "create_result",
+                    "type": "i",
+                    "value": "0"
+                }
+            ]
+        },
+        {
+            "table": "hierarchy_structure",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "i",
+                    "value": "7"
+                },
+                {
+                    "name": "id_parent",
+                    "type": "i",
+                    "value": "20"
+                },
+                {
+                    "name": "sort_order",
+                    "type": "i",
+                    "value": "0"
+                },
+                {
+                    "name": "order_tree",
+                    "type": "i",
+                    "value": "0"
+                },
+                {
+                    "name": "active",
+                    "type": "i",
+                    "value": "1"
+                },
+                {
+                    "name": "active_tree",
+                    "type": "i",
+                    "value": "0"
+                },
+                {
+                    "name": "name",
+                    "type": "s",
+                    "value": ""
+                },
+                {
+                    "name": "create_result",
+                    "type": "i",
+                    "value": "0"
+                }
+            ]
+        },
+        {
+            "table": "hierarchy_structure",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "i",
+                    "value": "8"
+                },
+                {
+                    "name": "id_parent",
+                    "type": "i",
+                    "value": "22"
+                },
+                {
+                    "name": "sort_order",
+                    "type": "i",
+                    "value": "0"
+                },
+                {
+                    "name": "order_tree",
+                    "type": "i",
+                    "value": "0"
+                },
+                {
+                    "name": "active",
+                    "type": "i",
+                    "value": "1"
+                },
+                {
+                    "name": "active_tree",
+                    "type": "i",
+                    "value": "0"
+                },
+                {
+                    "name": "name",
+                    "type": "s",
+                    "value": ""
+                },
+                {
+                    "name": "create_result",
+                    "type": "i",
+                    "value": "0"
+                }
+            ]
+        },
+        {
+            "table": "hierarchy_structure",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "i",
+                    "value": "9"
+                },
+                {
+                    "name": "id_parent",
+                    "type": "i",
+                    "value": "22"
+                },
+                {
+                    "name": "sort_order",
+                    "type": "i",
+                    "value": "1"
+                },
+                {
+                    "name": "order_tree",
+                    "type": "i",
+                    "value": "0"
+                },
+                {
+                    "name": "active",
+                    "type": "i",
+                    "value": "1"
+                },
+                {
+                    "name": "active_tree",
+                    "type": "i",
+                    "value": "0"
+                },
+                {
+                    "name": "name",
+                    "type": "s",
+                    "value": ""
+                },
+                {
+                    "name": "create_result",
+                    "type": "i",
+                    "value": "0"
+                }
+            ]
+        },
+        {
+            "table": "hierarchy_structure",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "i",
+                    "value": "19"
+                },
+                {
+                    "name": "id_parent",
+                    "type": "i",
+                    "value": "22"
+                },
+                {
+                    "name": "sort_order",
+                    "type": "i",
+                    "value": "2"
+                },
+                {
+                    "name": "order_tree",
+                    "type": "i",
+                    "value": "0"
+                },
+                {
+                    "name": "active",
+                    "type": "i",
+                    "value": "1"
+                },
+                {
+                    "name": "active_tree",
+                    "type": "i",
+                    "value": "0"
+                },
+                {
+                    "name": "name",
+                    "type": "s",
+                    "value": ""
+                },
+                {
+                    "name": "create_result",
+                    "type": "i",
+                    "value": "0"
+                }
+            ]
+        },
+        {
+            "table": "hierarchy_structure",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "i",
+                    "value": "11"
+                },
+                {
+                    "name": "id_parent",
+                    "type": "i",
+                    "value": "21"
+                },
+                {
+                    "name": "sort_order",
+                    "type": "i",
+                    "value": "6"
+                },
+                {
+                    "name": "order_tree",
+                    "type": "i",
+                    "value": "0"
+                },
+                {
+                    "name": "active",
+                    "type": "i",
+                    "value": "1"
+                },
+                {
+                    "name": "active_tree",
+                    "type": "i",
+                    "value": "0"
+                },
+                {
+                    "name": "name",
+                    "type": "s",
+                    "value": ""
+                },
+                {
+                    "name": "create_result",
+                    "type": "i",
+                    "value": "0"
+                }
+            ]
+        },
+        {
+            "table": "hierarchy_structure",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "i",
+                    "value": "12"
+                },
+                {
+                    "name": "id_parent",
+                    "type": "i",
+                    "value": "20"
+                },
+                {
+                    "name": "sort_order",
+                    "type": "i",
+                    "value": "1"
+                },
+                {
+                    "name": "order_tree",
+                    "type": "i",
+                    "value": "0"
+                },
+                {
+                    "name": "active",
+                    "type": "i",
+                    "value": "1"
+                },
+                {
+                    "name": "active_tree",
+                    "type": "i",
+                    "value": "0"
+                },
+                {
+                    "name": "name",
+                    "type": "s",
+                    "value": ""
+                },
+                {
+                    "name": "create_result",
+                    "type": "i",
+                    "value": "0"
+                }
+            ]
+        },
+        {
+            "table": "hierarchy_structure",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "i",
+                    "value": "13"
+                },
+                {
+                    "name": "id_parent",
+                    "type": "i",
+                    "value": "1"
+                },
+                {
+                    "name": "sort_order",
+                    "type": "i",
+                    "value": "4"
+                },
+                {
+                    "name": "order_tree",
+                    "type": "i",
+                    "value": "0"
+                },
+                {
+                    "name": "active",
+                    "type": "i",
+                    "value": "1"
+                },
+                {
+                    "name": "active_tree",
+                    "type": "i",
+                    "value": "0"
+                },
+                {
+                    "name": "name",
+                    "type": "s",
+                    "value": ""
+                },
+                {
+                    "name": "create_result",
+                    "type": "i",
+                    "value": "0"
+                }
+            ]
+        },
+        {
+            "table": "hierarchy_structure",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "i",
+                    "value": "21"
+                },
+                {
+                    "name": "id_parent",
+                    "type": "i",
+                    "value": "1"
+                },
+                {
+                    "name": "sort_order",
+                    "type": "i",
+                    "value": "1"
+                },
+                {
+                    "name": "order_tree",
+                    "type": "i",
+                    "value": "0"
+                },
+                {
+                    "name": "active",
+                    "type": "i",
+                    "value": "1"
+                },
+                {
+                    "name": "active_tree",
+                    "type": "i",
+                    "value": "0"
+                },
+                {
+                    "name": "name",
+                    "type": "s",
+                    "value": ""
+                },
+                {
+                    "name": "create_result",
+                    "type": "i",
+                    "value": "0"
+                }
+            ]
+        },
+        {
+            "table": "hierarchy_structure",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "i",
+                    "value": "15"
+                },
+                {
+                    "name": "id_parent",
+                    "type": "i",
+                    "value": "1"
+                },
+                {
+                    "name": "sort_order",
+                    "type": "i",
+                    "value": "5"
+                },
+                {
+                    "name": "order_tree",
+                    "type": "i",
+                    "value": "0"
+                },
+                {
+                    "name": "active",
+                    "type": "i",
+                    "value": "1"
+                },
+                {
+                    "name": "active_tree",
+                    "type": "i",
+                    "value": "0"
+                },
+                {
+                    "name": "name",
+                    "type": "s",
+                    "value": ""
+                },
+                {
+                    "name": "create_result",
+                    "type": "i",
+                    "value": "0"
+                }
+            ]
+        },
+        {
+            "table": "hierarchy_structure",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "i",
+                    "value": "16"
+                },
+                {
+                    "name": "id_parent",
+                    "type": "i",
+                    "value": "21"
+                },
+                {
+                    "name": "sort_order",
+                    "type": "i",
+                    "value": "2"
+                },
+                {
+                    "name": "order_tree",
+                    "type": "i",
+                    "value": "0"
+                },
+                {
+                    "name": "active",
+                    "type": "i",
+                    "value": "1"
+                },
+                {
+                    "name": "active_tree",
+                    "type": "i",
+                    "value": "0"
+                },
+                {
+                    "name": "name",
+                    "type": "s",
+                    "value": ""
+                },
+                {
+                    "name": "create_result",
+                    "type": "i",
+                    "value": "0"
+                }
+            ]
+        },
+        {
+            "table": "hierarchy_structure",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "i",
+                    "value": "17"
+                },
+                {
+                    "name": "id_parent",
+                    "type": "i",
+                    "value": "21"
+                },
+                {
+                    "name": "sort_order",
+                    "type": "i",
+                    "value": "3"
+                },
+                {
+                    "name": "order_tree",
+                    "type": "i",
+                    "value": "0"
+                },
+                {
+                    "name": "active",
+                    "type": "i",
+                    "value": "1"
+                },
+                {
+                    "name": "active_tree",
+                    "type": "i",
+                    "value": "0"
+                },
+                {
+                    "name": "name",
+                    "type": "s",
+                    "value": ""
+                },
+                {
+                    "name": "create_result",
+                    "type": "i",
+                    "value": "0"
+                }
+            ]
+        },
+        {
+            "table": "hierarchy_structure",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "i",
+                    "value": "20"
+                },
+                {
+                    "name": "id_parent",
+                    "type": "i",
+                    "value": "1"
+                },
+                {
+                    "name": "sort_order",
+                    "type": "i",
+                    "value": "0"
+                },
+                {
+                    "name": "order_tree",
+                    "type": "i",
+                    "value": "0"
+                },
+                {
+                    "name": "active",
+                    "type": "i",
+                    "value": "1"
+                },
+                {
+                    "name": "active_tree",
+                    "type": "i",
+                    "value": "0"
+                },
+                {
+                    "name": "name",
+                    "type": "s",
+                    "value": ""
+                },
+                {
+                    "name": "create_result",
+                    "type": "i",
+                    "value": "0"
+                }
+            ]
+        },
+        {
+            "table": "hierarchy_structure",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "i",
+                    "value": "22"
+                },
+                {
+                    "name": "id_parent",
+                    "type": "i",
+                    "value": "1"
+                },
+                {
+                    "name": "sort_order",
+                    "type": "i",
+                    "value": "3"
+                },
+                {
+                    "name": "order_tree",
+                    "type": "i",
+                    "value": "0"
+                },
+                {
+                    "name": "active",
+                    "type": "i",
+                    "value": "1"
+                },
+                {
+                    "name": "active_tree",
+                    "type": "i",
+                    "value": "0"
+                },
+                {
+                    "name": "name",
+                    "type": "s",
+                    "value": ""
+                },
+                {
+                    "name": "create_result",
+                    "type": "i",
+                    "value": "0"
+                }
+            ]
+        },
+        {
+            "table": "hierarchy_structure",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "i",
+                    "value": "23"
+                },
+                {
+                    "name": "id_parent",
+                    "type": "i",
+                    "value": "21"
+                },
+                {
+                    "name": "sort_order",
+                    "type": "i",
+                    "value": "7"
+                },
+                {
+                    "name": "order_tree",
+                    "type": "i",
+                    "value": "0"
+                },
+                {
+                    "name": "active",
+                    "type": "i",
+                    "value": "1"
+                },
+                {
+                    "name": "active_tree",
+                    "type": "i",
+                    "value": "0"
+                },
+                {
+                    "name": "name",
+                    "type": "s",
+                    "value": ""
+                },
+                {
+                    "name": "create_result",
+                    "type": "i",
+                    "value": "0"
+                }
+            ]
+        },
+        {
+            "table": "hierarchy_structure",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "i",
+                    "value": "94"
+                },
+                {
+                    "name": "id_parent",
+                    "type": "i",
+                    "value": "2"
+                },
+                {
+                    "name": "sort_order",
+                    "type": "i",
+                    "value": "0"
+                },
+                {
+                    "name": "order_tree",
+                    "type": "i",
+                    "value": "0"
+                },
+                {
+                    "name": "active",
+                    "type": "i",
+                    "value": "1"
+                },
+                {
+                    "name": "active_tree",
+                    "type": "i",
+                    "value": "0"
+                },
+                {
+                    "name": "name",
+                    "type": "s",
+                    "value": ""
+                },
+                {
+                    "name": "create_result",
+                    "type": "i",
+                    "value": "0"
+                }
+            ]
+        },
+        {
+            "table": "hierarchy_item",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "i",
+                    "value": "1"
+                },
+                {
+                    "name": "module",
+                    "type": "s",
+                    "value": "module"
+                },
+                {
+                    "name": "params",
+                    "type": "s",
+                    "value": "{\\\"module\\\":\\\"core\\\",\\\"params\\\":\\\"core_action=core_display_editor\\\",\\\"open_type\\\":\\\"\\\",\\\"icon\\\":\\\"layout\\\"}"
+                },
+                {
+                    "name": "target",
+                    "type": "s",
+                    "value": "lemain"
+                }
+            ]
+        },
+        {
+            "table": "hierarchy_item",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "i",
+                    "value": "2"
+                },
+                {
+                    "name": "module",
+                    "type": "s",
+                    "value": "module"
+                },
+                {
+                    "name": "params",
+                    "type": "s",
+                    "value": "{\\\"module\\\":\\\"hierarchy\\\",\\\"params\\\":\\\"\\\",\\\"open_type\\\":\\\"\\\",\\\"icon\\\":\\\"git-pull-request\\\"}"
+                },
+                {
+                    "name": "target",
+                    "type": "s",
+                    "value": "lemain"
+                }
+            ]
+        },
+        {
+            "table": "hierarchy_item",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "i",
+                    "value": "3"
+                },
+                {
+                    "name": "module",
+                    "type": "s",
+                    "value": "module"
+                },
+                {
+                    "name": "params",
+                    "type": "s",
+                    "value": "{\\\"module\\\":\\\"csseditor\\\",\\\"params\\\":\\\"\\\",\\\"open_type\\\":\\\"\\\",\\\"icon\\\":\\\"feather\\\"}"
+                },
+                {
+                    "name": "target",
+                    "type": "s",
+                    "value": "lemain"
+                }
+            ]
+        },
+        {
+            "table": "hierarchy_item",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "i",
+                    "value": "4"
+                },
+                {
+                    "name": "module",
+                    "type": "s",
+                    "value": "module"
+                },
+                {
+                    "name": "params",
+                    "type": "s",
+                    "value": "{\\\"module\\\":\\\"csseditor\\\",\\\"params\\\":\\\"source=module\\\",\\\"open_type\\\":\\\"\\\",\\\"icon\\\":\\\"feather\\\"}"
+                },
+                {
+                    "name": "target",
+                    "type": "s",
+                    "value": "lemain"
+                }
+            ]
+        },
+        {
+            "table": "hierarchy_item",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "i",
+                    "value": "5"
+                },
+                {
+                    "name": "module",
+                    "type": "s",
+                    "value": "module"
+                },
+                {
+                    "name": "params",
+                    "type": "s",
+                    "value": "{\\\"module\\\":\\\"languages\\\",\\\"params\\\":\\\"\\\",\\\"open_type\\\":\\\"\\\",\\\"icon\\\":\\\"flag\\\"}"
+                },
+                {
+                    "name": "target",
+                    "type": "s",
+                    "value": "lemain"
+                }
+            ]
+        },
+        {
+            "table": "hierarchy_item",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "i",
+                    "value": "6"
+                },
+                {
+                    "name": "module",
+                    "type": "s",
+                    "value": "module"
+                },
+                {
+                    "name": "params",
+                    "type": "s",
+                    "value": "{\\\"module\\\":\\\"group\\\",\\\"params\\\":\\\"\\\",\\\"open_type\\\":\\\"\\\",\\\"icon\\\":\\\"grid\\\"}"
+                },
+                {
+                    "name": "target",
+                    "type": "s",
+                    "value": "lemain"
+                }
+            ]
+        },
+        {
+            "table": "hierarchy_item",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "i",
+                    "value": "7"
+                },
+                {
+                    "name": "module",
+                    "type": "s",
+                    "value": "module"
+                },
+                {
+                    "name": "params",
+                    "type": "s",
+                    "value": "{\\\"module\\\":\\\"users\\\",\\\"params\\\":\\\"\\\",\\\"open_type\\\":\\\"\\\",\\\"icon\\\":\\\"users\\\"}"
+                },
+                {
+                    "name": "target",
+                    "type": "s",
+                    "value": "lemain"
+                }
+            ]
+        },
+        {
+            "table": "hierarchy_item",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "i",
+                    "value": "17"
+                },
+                {
+                    "name": "module",
+                    "type": "s",
+                    "value": "module"
+                },
+                {
+                    "name": "params",
+                    "type": "s",
+                    "value": "{\\\"module\\\":\\\"unban\\\",\\\"params\\\":\\\"\\\",\\\"open_type\\\":\\\"\\\",\\\"icon\\\":\\\"log-out\\\"}"
+                },
+                {
+                    "name": "target",
+                    "type": "s",
+                    "value": "lemain"
+                }
+            ]
+        },
+        {
+            "table": "hierarchy_item",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "i",
+                    "value": "9"
+                },
+                {
+                    "name": "module",
+                    "type": "s",
+                    "value": "module"
+                },
+                {
+                    "name": "params",
+                    "type": "s",
+                    "value": "{\\\"module\\\":\\\"uitranslate\\\",\\\"params\\\":\\\"\\\",\\\"open_type\\\":\\\"\\\",\\\"icon\\\":\\\"shuffle\\\"}"
+                },
+                {
+                    "name": "target",
+                    "type": "s",
+                    "value": "lemain"
+                }
+            ]
+        },
+        {
+            "table": "hierarchy_item",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "i",
+                    "value": "10"
+                },
+                {
+                    "name": "module",
+                    "type": "s",
+                    "value": "module"
+                },
+                {
+                    "name": "params",
+                    "type": "s",
+                    "value": "{\\\"module\\\":\\\"maintenance\\\",\\\"params\\\":\\\"\\\",\\\"open_type\\\":\\\"\\\",\\\"icon\\\":\\\"settings\\\"}"
+                },
+                {
+                    "name": "target",
+                    "type": "s",
+                    "value": "lemain"
+                }
+            ]
+        },
+        {
+            "table": "hierarchy_item",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "i",
+                    "value": "11"
+                },
+                {
+                    "name": "module",
+                    "type": "s",
+                    "value": "module"
+                },
+                {
+                    "name": "params",
+                    "type": "s",
+                    "value": "{\\\"module\\\":\\\"blockeditor\\\",\\\"params\\\":\\\"\\\",\\\"open_type\\\":\\\"\\\",\\\"icon\\\":\\\"layers\\\"}"
+                },
+                {
+                    "name": "target",
+                    "type": "s",
+                    "value": "lemain"
+                }
+            ]
+        },
+        {
+            "table": "hierarchy_item",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "i",
+                    "value": "19"
+                },
+                {
+                    "name": "module",
+                    "type": "s",
+                    "value": "custom"
+                },
+                {
+                    "name": "params",
+                    "type": "s",
+                    "value": "{\\\"url\\\":\\\"\\\",\\\"open_type\\\":\\\"\\\",\\\"icon\\\":\\\"triangle\\\"}"
+                },
+                {
+                    "name": "target",
+                    "type": "s",
+                    "value": ""
+                }
+            ]
+        },
+        {
+            "table": "hierarchy_item",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "i",
+                    "value": "13"
+                },
+                {
+                    "name": "module",
+                    "type": "s",
+                    "value": "module"
+                },
+                {
+                    "name": "params",
+                    "type": "s",
+                    "value": "{\\\"module\\\":\\\"document\\\",\\\"params\\\":\\\"\\\",\\\"open_type\\\":\\\"\\\",\\\"icon\\\":\\\"pen-tool\\\"}"
+                },
+                {
+                    "name": "target",
+                    "type": "s",
+                    "value": "lemain"
+                }
+            ]
+        },
+        {
+            "table": "hierarchy_item",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "i",
+                    "value": "14"
+                },
+                {
+                    "name": "module",
+                    "type": "s",
+                    "value": "module"
+                },
+                {
+                    "name": "params",
+                    "type": "s",
+                    "value": "{\\\"module\\\":\\\"category\\\",\\\"params\\\":\\\"\\\",\\\"open_type\\\":\\\"\\\",\\\"icon\\\":\\\"list\\\"}"
+                },
+                {
+                    "name": "target",
+                    "type": "s",
+                    "value": "lemain"
+                }
+            ]
+        },
+        {
+            "table": "hierarchy_item",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "i",
+                    "value": "15"
+                },
+                {
+                    "name": "module",
+                    "type": "s",
+                    "value": "module"
+                },
+                {
+                    "name": "params",
+                    "type": "s",
+                    "value": "{\\\"module\\\":\\\"icons\\\",\\\"params\\\":\\\"\\\",\\\"open_type\\\":\\\"\\\",\\\"icon\\\":\\\"image\\\"}"
+                },
+                {
+                    "name": "target",
+                    "type": "s",
+                    "value": "lemain"
+                }
+            ]
+        },
+        {
+            "table": "hierarchy_item",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "i",
+                    "value": "18"
+                },
+                {
+                    "name": "module",
+                    "type": "s",
+                    "value": "custom"
+                },
+                {
+                    "name": "params",
+                    "type": "s",
+                    "value": "{\\\"url\\\":\\\"\\\",\\\"open_type\\\":\\\"\\\",\\\"icon\\\":\\\"settings\\\"}"
+                },
+                {
+                    "name": "target",
+                    "type": "s",
+                    "value": ""
+                }
+            ]
+        },
+        {
+            "table": "hierarchy_item",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "i",
+                    "value": "20"
+                },
+                {
+                    "name": "module",
+                    "type": "s",
+                    "value": "custom"
+                },
+                {
+                    "name": "params",
+                    "type": "s",
+                    "value": "{\\\"url\\\":\\\"\\\",\\\"open_type\\\":\\\"\\\",\\\"icon\\\":\\\"users\\\"}"
+                },
+                {
+                    "name": "target",
+                    "type": "s",
+                    "value": ""
+                }
+            ]
+        },
+        {
+            "table": "hierarchy_item",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "i",
+                    "value": "21"
+                },
+                {
+                    "name": "module",
+                    "type": "s",
+                    "value": "module"
+                },
+                {
+                    "name": "params",
+                    "type": "s",
+                    "value": "{\\\"module\\\":\\\"deco\\\",\\\"params\\\":\\\"\\\",\\\"open_type\\\":\\\"\\\",\\\"icon\\\":\\\"aperture\\\"}"
+                },
+                {
+                    "name": "target",
+                    "type": "s",
+                    "value": ""
+                }
+            ]
+        },
+        {
+            "table": "hierarchy_item",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "i",
+                    "value": "90"
+                },
+                {
+                    "name": "module",
+                    "type": "s",
+                    "value": "document"
+                },
+                {
+                    "name": "params",
+                    "type": "s",
+                    "value": "{\\\"params\\\":\\\"1\\\",\\\"open_type\\\":\\\"\\\"}"
+                },
+                {
+                    "name": "target",
+                    "type": "s",
+                    "value": ""
+                }
+            ]
+        },
+        {
+            "table": "hierarchy_modular_association",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "i",
+                    "value": "1"
+                },
+                {
+                    "name": "id_structure",
+                    "type": "i",
+                    "value": "1"
+                },
+                {
+                    "name": "id_item",
+                    "type": "i",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "table": "hierarchy_modular_association",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "i",
+                    "value": "2"
+                },
+                {
+                    "name": "id_structure",
+                    "type": "i",
+                    "value": "2"
+                },
+                {
+                    "name": "id_item",
+                    "type": "i",
+                    "value": "2"
+                }
+            ]
+        },
+        {
+            "table": "hierarchy_modular_association",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "i",
+                    "value": "3"
+                },
+                {
+                    "name": "id_structure",
+                    "type": "i",
+                    "value": "3"
+                },
+                {
+                    "name": "id_item",
+                    "type": "i",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "table": "hierarchy_modular_association",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "i",
+                    "value": "4"
+                },
+                {
+                    "name": "id_structure",
+                    "type": "i",
+                    "value": "4"
+                },
+                {
+                    "name": "id_item",
+                    "type": "i",
+                    "value": "2"
+                }
+            ]
+        },
+        {
+            "table": "hierarchy_modular_association",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "i",
+                    "value": "5"
+                },
+                {
+                    "name": "id_structure",
+                    "type": "i",
+                    "value": "5"
+                },
+                {
+                    "name": "id_item",
+                    "type": "i",
+                    "value": "3"
+                }
+            ]
+        },
+        {
+            "table": "hierarchy_modular_association",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "i",
+                    "value": "6"
+                },
+                {
+                    "name": "id_structure",
+                    "type": "i",
+                    "value": "6"
+                },
+                {
+                    "name": "id_item",
+                    "type": "i",
+                    "value": "4"
+                }
+            ]
+        },
+        {
+            "table": "hierarchy_modular_association",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "i",
+                    "value": "7"
+                },
+                {
+                    "name": "id_structure",
+                    "type": "i",
+                    "value": "7"
+                },
+                {
+                    "name": "id_item",
+                    "type": "i",
+                    "value": "5"
+                }
+            ]
+        },
+        {
+            "table": "hierarchy_modular_association",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "i",
+                    "value": "8"
+                },
+                {
+                    "name": "id_structure",
+                    "type": "i",
+                    "value": "8"
+                },
+                {
+                    "name": "id_item",
+                    "type": "i",
+                    "value": "6"
+                }
+            ]
+        },
+        {
+            "table": "hierarchy_modular_association",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "i",
+                    "value": "9"
+                },
+                {
+                    "name": "id_structure",
+                    "type": "i",
+                    "value": "9"
+                },
+                {
+                    "name": "id_item",
+                    "type": "i",
+                    "value": "7"
+                }
+            ]
+        },
+        {
+            "table": "hierarchy_modular_association",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "i",
+                    "value": "19"
+                },
+                {
+                    "name": "id_structure",
+                    "type": "i",
+                    "value": "19"
+                },
+                {
+                    "name": "id_item",
+                    "type": "i",
+                    "value": "17"
+                }
+            ]
+        },
+        {
+            "table": "hierarchy_modular_association",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "i",
+                    "value": "11"
+                },
+                {
+                    "name": "id_structure",
+                    "type": "i",
+                    "value": "11"
+                },
+                {
+                    "name": "id_item",
+                    "type": "i",
+                    "value": "9"
+                }
+            ]
+        },
+        {
+            "table": "hierarchy_modular_association",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "i",
+                    "value": "12"
+                },
+                {
+                    "name": "id_structure",
+                    "type": "i",
+                    "value": "12"
+                },
+                {
+                    "name": "id_item",
+                    "type": "i",
+                    "value": "10"
+                }
+            ]
+        },
+        {
+            "table": "hierarchy_modular_association",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "i",
+                    "value": "13"
+                },
+                {
+                    "name": "id_structure",
+                    "type": "i",
+                    "value": "13"
+                },
+                {
+                    "name": "id_item",
+                    "type": "i",
+                    "value": "11"
+                }
+            ]
+        },
+        {
+            "table": "hierarchy_modular_association",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "i",
+                    "value": "21"
+                },
+                {
+                    "name": "id_structure",
+                    "type": "i",
+                    "value": "21"
+                },
+                {
+                    "name": "id_item",
+                    "type": "i",
+                    "value": "19"
+                }
+            ]
+        },
+        {
+            "table": "hierarchy_modular_association",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "i",
+                    "value": "15"
+                },
+                {
+                    "name": "id_structure",
+                    "type": "i",
+                    "value": "15"
+                },
+                {
+                    "name": "id_item",
+                    "type": "i",
+                    "value": "13"
+                }
+            ]
+        },
+        {
+            "table": "hierarchy_modular_association",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "i",
+                    "value": "16"
+                },
+                {
+                    "name": "id_structure",
+                    "type": "i",
+                    "value": "16"
+                },
+                {
+                    "name": "id_item",
+                    "type": "i",
+                    "value": "14"
+                }
+            ]
+        },
+        {
+            "table": "hierarchy_modular_association",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "i",
+                    "value": "17"
+                },
+                {
+                    "name": "id_structure",
+                    "type": "i",
+                    "value": "17"
+                },
+                {
+                    "name": "id_item",
+                    "type": "i",
+                    "value": "15"
+                }
+            ]
+        },
+        {
+            "table": "hierarchy_modular_association",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "i",
+                    "value": "20"
+                },
+                {
+                    "name": "id_structure",
+                    "type": "i",
+                    "value": "20"
+                },
+                {
+                    "name": "id_item",
+                    "type": "i",
+                    "value": "18"
+                }
+            ]
+        },
+        {
+            "table": "hierarchy_modular_association",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "i",
+                    "value": "22"
+                },
+                {
+                    "name": "id_structure",
+                    "type": "i",
+                    "value": "22"
+                },
+                {
+                    "name": "id_item",
+                    "type": "i",
+                    "value": "20"
+                }
+            ]
+        },
+        {
+            "table": "hierarchy_modular_association",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "i",
+                    "value": "23"
+                },
+                {
+                    "name": "id_structure",
+                    "type": "i",
+                    "value": "23"
+                },
+                {
+                    "name": "id_item",
+                    "type": "i",
+                    "value": "21"
+                }
+            ]
+        },
+        {
+            "table": "hierarchy_modular_association",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "i",
+                    "value": "92"
+                },
+                {
+                    "name": "id_structure",
+                    "type": "i",
+                    "value": "94"
+                },
+                {
+                    "name": "id_item",
+                    "type": "i",
+                    "value": "90"
+                }
+            ]
+        },
+        {
+            "table": "languages_short",
+            "fields": [
+                {
+                    "name": "id_data",
+                    "type": "i",
+                    "value": "10"
+                },
+                {
+                    "name": "id_item",
+                    "type": "i",
+                    "value": "18"
+                },
+                {
+                    "name": "field_identifier",
+                    "type": "s",
+                    "value": "hierarchy_item-name"
+                },
+                {
+                    "name": "value",
+                    "type": "s",
+                    "value": "Settings"
+                }
+            ]
+        },
+        {
+            "table": "languages_short",
+            "fields": [
+                {
+                    "name": "id_data",
+                    "type": "i",
+                    "value": "10"
+                },
+                {
+                    "name": "id_item",
+                    "type": "i",
+                    "value": "19"
+                },
+                {
+                    "name": "field_identifier",
+                    "type": "s",
+                    "value": "hierarchy_item-name"
+                },
+                {
+                    "name": "value",
+                    "type": "s",
+                    "value": "Arrangement and design"
+                }
+            ]
+        },
+        {
+            "table": "languages_short",
+            "fields": [
+                {
+                    "name": "id_data",
+                    "type": "i",
+                    "value": "10"
+                },
+                {
+                    "name": "id_item",
+                    "type": "i",
+                    "value": "20"
+                },
+                {
+                    "name": "field_identifier",
+                    "type": "s",
+                    "value": "hierarchy_item-name"
+                },
+                {
+                    "name": "value",
+                    "type": "s",
+                    "value": "User management"
+                }
+            ]
+        },
+        {
+            "table": "languages_short",
+            "fields": [
+                {
+                    "name": "id_data",
+                    "type": "i",
+                    "value": "10"
+                },
+                {
+                    "name": "id_item",
+                    "type": "i",
+                    "value": "1"
+                },
+                {
+                    "name": "field_identifier",
+                    "type": "s",
+                    "value": "document_data-label"
+                },
+                {
+                    "name": "value",
+                    "type": "s",
+                    "value": "Welcome"
+                }
+            ]
+        },
+        {
+            "table": "block_texte",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "i",
+                    "value": "1"
+                },
+                {
+                    "name": "creadate",
+                    "type": "s",
+                    "value": "2026-01-20 16:28:09"
+                }
+            ]
+        },
+        {
+            "table": "document_data",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "i",
+                    "value": "1"
+                },
+                {
+                    "name": "name",
+                    "type": "s",
+                    "value": "Welcome"
+                },
+                {
+                    "name": "route",
+                    "type": "s",
+                    "value": "Welcome"
+                },
+                {
+                    "name": "creation_date",
+                    "type": "s",
+                    "value": "2026-01-20 15:47:57"
+                },
+                {
+                    "name": "publication_date",
+                    "type": "s",
+                    "value": "2026-01-20 00:00:00"
+                },
+                {
+                    "name": "active",
+                    "type": "i",
+                    "value": "1"
+                },
+                {
+                    "name": "modele",
+                    "type": "s",
+                    "value": ""
+                },
+                {
+                    "name": "id_user_data",
+                    "type": "i",
+                    "value": "1"
+                },
+                {
+                    "name": "ismodele",
+                    "type": "i",
+                    "value": "0"
+                }
+            ]
+        },
+        {
+            "table": "core_submodules",
+            "fields": [
+                {
+                    "name": "id_disposition",
+                    "type": "i",
+                    "value": "2"
+                },
+                {
+                    "name": "module_subcontainer",
+                    "type": "s",
+                    "value": ""
+                },
+                {
+                    "name": "module_name",
+                    "type": "s",
+                    "value": "hierarchy"
+                },
+                {
+                    "name": "module_param",
+                    "type": "s",
+                    "value": "hierarchy_action=hierarchy_display_menu&id=2"
+                },
+                {
+                    "name": "sort_order",
+                    "type": "i",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "table": "languages_long",
+            "fields": [
+                {
+                    "name": "id_data",
+                    "type": "i",
+                    "value": "10"
+                },
+                {
+                    "name": "id_item",
+                    "type": "i",
+                    "value": "1"
+                },
+                {
+                    "name": "field_identifier",
+                    "type": "s",
+                    "value": "document_data-summary"
+                },
+                {
+                    "name": "value",
+                    "type": "s",
+                    "value": "<div>Welcome to your helPHP instance !<\\\/div>"
+                }
+            ]
+        },
+        {
+            "table": "languages_long",
+            "fields": [
+                {
+                    "name": "id_data",
+                    "type": "i",
+                    "value": "10"
+                },
+                {
+                    "name": "id_item",
+                    "type": "i",
+                    "value": "1"
+                },
+                {
+                    "name": "field_identifier",
+                    "type": "s",
+                    "value": "block_texte-contenu"
+                },
+                {
+                    "name": "value",
+                    "type": "s",
+                    "value": "<div><img class=\\\"hlp_media image portrait\\\" src=\\\"http:\\\/\\\/localhost\\\/images\\\/logo-border.png\\\" alt=\\\"helPHP_Logo\\\" border=\\\"0\\\"  style=\\\"display: block; margin-left: auto; margin-right: auto;\\\" ><\\\/div><div style=\\\"text-align: center;\\\" >Hello world !<\\\/div>"
+                }
+            ]
+        },
+        {
+            "table": "document_blocks",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "i",
+                    "value": "1"
+                },
+                {
+                    "name": "id_document_data",
+                    "type": "i",
+                    "value": "1"
+                },
+                {
+                    "name": "blockname",
+                    "type": "s",
+                    "value": "texte"
+                },
+                {
+                    "name": "sort_order",
+                    "type": "i",
+                    "value": "1"
+                },
+                {
+                    "name": "id_block",
+                    "type": "i",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "table": "core_disposition",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "i",
+                    "value": "2"
+                },
+                {
+                    "name": "name",
+                    "type": "s",
+                    "value": "public"
+                },
+                {
+                    "name": "description",
+                    "type": "s",
+                    "value": ""
+                },
+                {
+                    "name": "module_indexable",
+                    "type": "s",
+                    "value": "document"
+                },
+                {
+                    "name": "module_param",
+                    "type": "s",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "table": "languages_short",
+            "fields": [
+                {
+                    "name": "id_data",
+                    "type": "i",
+                    "value": "17"
+                },
+                {
+                    "name": "id_item",
+                    "type": "i",
+                    "value": "18"
+                },
+                {
+                    "name": "field_identifier",
+                    "type": "s",
+                    "value": "hierarchy_item-name"
+                },
+                {
+                    "name": "value",
+                    "type": "s",
+                    "value": "Paramètres"
+                }
+            ]
+        },
+        {
+            "table": "languages_short",
+            "fields": [
+                {
+                    "name": "id_data",
+                    "type": "i",
+                    "value": "17"
+                },
+                {
+                    "name": "id_item",
+                    "type": "i",
+                    "value": "19"
+                },
+                {
+                    "name": "field_identifier",
+                    "type": "s",
+                    "value": "hierarchy_item-name"
+                },
+                {
+                    "name": "value",
+                    "type": "s",
+                    "value": "Agencement et design"
+                }
+            ]
+        },
+        {
+            "table": "languages_short",
+            "fields": [
+                {
+                    "name": "id_data",
+                    "type": "i",
+                    "value": "17"
+                },
+                {
+                    "name": "id_item",
+                    "type": "i",
+                    "value": "20"
+                },
+                {
+                    "name": "field_identifier",
+                    "type": "s",
+                    "value": "hierarchy_item-name"
+                },
+                {
+                    "name": "value",
+                    "type": "s",
+                    "value": "Gestion des utilisateurs"
+                }
+            ]
+        },
+        {
+            "table": "languages_short",
+            "fields": [
+                {
+                    "name": "id_data",
+                    "type": "i",
+                    "value": "10"
+                },
+                {
+                    "name": "id_item",
+                    "type": "i",
+                    "value": "4"
+                },
+                {
+                    "name": "field_identifier",
+                    "type": "s",
+                    "value": "hierarchy_item-name"
+                },
+                {
+                    "name": "value",
+                    "type": "s",
+                    "value": "CSS module"
+                }
+            ]
+        },
+        {
+            "table": "languages_short",
+            "fields": [
+                {
+                    "name": "id_data",
+                    "type": "i",
+                    "value": "17"
+                },
+                {
+                    "name": "id_item",
+                    "type": "i",
+                    "value": "4"
+                },
+                {
+                    "name": "field_identifier",
+                    "type": "s",
+                    "value": "hierarchy_item-name"
+                },
+                {
+                    "name": "value",
+                    "type": "s",
+                    "value": "CSS module"
+                }
+            ]
+        },
+        {
+            "table": "languages_short",
+            "fields": [
+                {
+                    "name": "id_data",
+                    "type": "i",
+                    "value": "10"
+                },
+                {
+                    "name": "id_item",
+                    "type": "i",
+                    "value": "3"
+                },
+                {
+                    "name": "field_identifier",
+                    "type": "s",
+                    "value": "hierarchy_item-name"
+                },
+                {
+                    "name": "value",
+                    "type": "s",
+                    "value": "CSS theme"
+                }
+            ]
+        },
+        {
+            "table": "languages_short",
+            "fields": [
+                {
+                    "name": "id_data",
+                    "type": "i",
+                    "value": "17"
+                },
+                {
+                    "name": "id_item",
+                    "type": "i",
+                    "value": "3"
+                },
+                {
+                    "name": "field_identifier",
+                    "type": "s",
+                    "value": "hierarchy_item-name"
+                },
+                {
+                    "name": "value",
+                    "type": "s",
+                    "value": "CSS thème"
+                }
+            ]
+        },
+        {
+            "table": "languages_short",
+            "fields": [
+                {
+                    "name": "id_data",
+                    "type": "i",
+                    "value": "17"
+                },
+                {
+                    "name": "id_item",
+                    "type": "i",
+                    "value": "1"
+                },
+                {
+                    "name": "field_identifier",
+                    "type": "s",
+                    "value": "document_data-label"
+                },
+                {
+                    "name": "value",
+                    "type": "s",
+                    "value": "Bienvenue"
+                }
+            ]
+        },
+        {
+            "table": "languages_long",
+            "fields": [
+                {
+                    "name": "id_data",
+                    "type": "i",
+                    "value": "17"
+                },
+                {
+                    "name": "id_item",
+                    "type": "i",
+                    "value": "1"
+                },
+                {
+                    "name": "field_identifier",
+                    "type": "s",
+                    "value": "block_texte-contenu"
+                },
+                {
+                    "name": "value",
+                    "type": "s",
+                    "value": "<div><img alt=\\\"helPHP_Logo\\\" border=\\\"0\\\" class=\\\"hlp_media image portrait\\\" src=\\\".\/images\/logo-border.png\\\" style=\\\"display: block; margin-left: auto; margin-right: auto;\\\"  ><\/div><div style=\\\"text-align: center;\\\" >Bonjour monde !<\/div>"
+                }
+            ]
+        },
+        {
+            "table": "languages_long",
+            "fields": [
+                {
+                    "name": "id_data",
+                    "type": "i",
+                    "value": "17"
+                },
+                {
+                    "name": "id_item",
+                    "type": "i",
+                    "value": "1"
+                },
+                {
+                    "name": "field_identifier",
+                    "type": "s",
+                    "value": "document_data-summary"
+                },
+                {
+                    "name": "value",
+                    "type": "s",
+                    "value": "<div>Bienvenue dans votre instance HelPHP !<\/div>"
+                }
+            ]
+        }
+    ]
+}
