@@ -21,7 +21,7 @@ class Config{
     const DOMAIN = 'my_domain.com';
     const SITE_FOLDER = '';
     const HOME_FOLDER = '/home/default/'.Config::SITE_FOLDER;
-    const BASE_URL = 'https://'.Config::DOMAIN.'/'.Config::SITE_FOLDER;
+    const BASE_URL = 'https://www.'.Config::DOMAIN.'/'.Config::SITE_FOLDER;
     const ADMIN_FOLDER = 'admin/';
     const HELPHP_FOLDER = '/home/helPHP/';
 
