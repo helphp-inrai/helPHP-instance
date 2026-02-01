@@ -281,6 +281,7 @@ if (isset($_POST['action']) && $_POST['action'] == 'install') {
         // same thing with other db we may connect
         $wrong_root_central = false;
         if ($data['DB_CENTRAL']) {
+            $install_params=' --central_user='.$db_root_user_central.' --central_pass='.$db_root_password_central;
             try {
                 $link = mysqli_connect(gethostbyname($data['DB_CENTRAL_HOST']), $db_root_user_central, $db_root_password_central);
                 mysqli_close($link);
@@ -292,6 +293,7 @@ if (isset($_POST['action']) && $_POST['action'] == 'install') {
         }
         $wrong_root_slave = false;
         if ($data['MASTER_SLAVE_MODE']) {
+            $install_params.=' --slave_user='.$db_root_user_slave.' --slave_pass='.$db_root_password_slave;
             try {
                 $link = mysqli_connect(gethostbyname($data['DB_SLAVE_HOST']), $db_root_user_slave, $db_root_password_slave);
                 mysqli_close($link);
@@ -303,7 +305,7 @@ if (isset($_POST['action']) && $_POST['action'] == 'install') {
         }
 
         if ($err === false){
-            $cmd = 'php '.$data['HELPHP_FOLDER'].'utils/install_instance.php '.$home_folder.' '.$db_root_user.' '.$db_root_pass.' '.$admin_user.' '.$admin_pass.' > /dev/null 2>&1 &';
+            $cmd = 'php '.$data['HELPHP_FOLDER'].'utils/install_instance.php '.$home_folder.' '.$admin_user.' '.$admin_pass.' '.$db_root_user.' '.$db_root_pass.$install_params.' > /dev/null 2>&1 &';
             exec($cmd);
 
             $action = 'installing';
@@ -547,7 +549,7 @@ if ($action == 'installing') {
         <?php if(isset($install_success)) {
             if ($install_success === true) { ?>
                 <div class="welcome">Installation success !</div>
-                <div class="welcome">Connect to your <a href="<?php echo $CONFIG::BASE_URL.$CONFIG::ADMIN_FOLDER; ?>">admin</a> and start working with helPHP !</div>
+                <div class="welcome">Connect to your <a href="<?php echo $CONFIG::BASE_URL.$CONFIG::ADMIN_FOLDER; ?>">admin</a> and start working with helPHP !<br> Note : check the BASE_URL constante in config/main.php if you can't connect.</div>
                 </body>
             </html>
             <?php exit; ?>
