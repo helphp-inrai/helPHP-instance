@@ -53,6 +53,7 @@ $config_values = [
         'SITE_NAME'=>'helPHP',
         'DOMAIN'=>'helPHP.com',
         'SITE_FOLDER'=>'',
+        'BASE_URL'=>'https://helPHP.com/',
         'ADMIN_FOLDER'=>'admin',
         
         'LOG_FOLDER'=>'/home/default/log',
@@ -321,6 +322,7 @@ if ($action == 'installing') {
         unlink($home_folder.'originals/installed.html');
         unlink($home_folder.'installscript.php');
         if (file_exists($home_folder.'install.json')) unlink($home_folder.'install.json');
+        if (file_exists($home_folder.'install_extra.php')) unlink($home_folder.'install_extra.php');
     } else {
         ?>
         <!DOCTYPE html>
@@ -626,6 +628,9 @@ if ($action == 'installing') {
 
                 <label for="SITE_FOLDER">Website folder (append it to the url)</label>
                 <input type="text" name="SITE_FOLDER" value="<?php echo $data['SITE_FOLDER']; ?>" id="SITE_FOLDER">
+                
+                <label for="BASE_URL">Full URL<br><span style="font-size: 0.8em;">https://domain.com/</span><br><span style="font-size: 0.8em;">http://localhost/</span></label>
+                <input type="text" name="BASE_URL" value="<?php echo $data['BASE_URL']; ?>" id="BASE_URL">
 
                 <label for="ADMIN_FOLDER">Admin (backfoffice) folder name</label>
                 <input type="text" name="ADMIN_FOLDER" value="<?php echo $data['ADMIN_FOLDER']; ?>" id="ADMIN_FOLDER">

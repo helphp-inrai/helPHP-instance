@@ -10,7 +10,7 @@ class Config{
 
     const SITE_NAME = 'helPHP';
 
-    const THEME_ID = 1;
+    const THEME_ID = 2;
     const THEME_ID_ADMIN = 1;
     const SVG_SPRITE_ICONS_FILE = 'feather-sprite.svg';
 
