@@ -173,6 +173,14 @@ $db_root_password_jobs = (isset($_POST['db_root_password_jobs']) && $_POST['db_r
 $admin_user = (isset($_POST['admin_user']) && $_POST['admin_user']!='') ? $_POST['admin_user'] : '';
 $admin_pass = (isset($_POST['admin_pass']) && $_POST['admin_pass']!='') ? $_POST['admin_pass'] : '';
 
+// verify the access rights on home folder
+$home_folder_not_writable = false;
+if (is_writable($home_folder)){
+    $home_folder_writable = true;
+} else {
+    $err = true;
+}
+
 // if the install is already launched, can stop the script here
 if ($launched_install) {
     $install_step = 4; // to display the installation page
