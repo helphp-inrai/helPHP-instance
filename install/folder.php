@@ -1,6 +1,6 @@
 <?php
 
-global $data, $install_step, $helphp_folder_found, $log_folder_writable;
+global $data, $install_step, $helphp_folder_found, $log_folder_writable, $home_folder_writable;
 
 ?>
 
@@ -9,6 +9,12 @@ global $data, $install_step, $helphp_folder_found, $log_folder_writable;
     <div class="block folders">
 
         <div class="title">Folders</div>
+
+        <?php 
+        if (!$home_folder_writable){
+            echo '<div class="msg_error home_folder_writable">The folder of your instance '.$home_folder_writable.' is not writable ! You have to give access to www-data to continue !</div>';
+        }
+        ?>
 
         <div class="sub_block one_col helphp ">
             <label for="HELPHP_FOLDER">

@@ -195,6 +195,14 @@ if ($data['HELPHP_FOLDER'] != '' && file_exists($data['HELPHP_FOLDER']) && file_
     $err = true;
 }
 
+// verify the access rights on home folder
+$home_folder_writable = false;
+if (is_writable($home_folder)){
+    $home_folder_writable = true;
+} else {
+    $err = true;
+}
+
 // check if script can write in log folder
 // $log_folder_writable = false;
 // if ($data['LOG_FOLDER'] && is_writable($data['LOG_FOLDER'])) {
