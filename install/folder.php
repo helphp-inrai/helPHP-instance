@@ -1,6 +1,6 @@
 <?php
 
-global $data, $install_step, $helphp_folder_found, $log_folder_writable, $home_folder_writable, $home_folder;
+global $data, $install_step, $helphp_folder_found, $log_folder_writable, $home_folder_writable, $home_folder, $missing_log_file, $log_file_writable;
 
 ?>
 
@@ -29,14 +29,15 @@ global $data, $install_step, $helphp_folder_found, $log_folder_writable, $home_f
         </div>
         
         <div class="sub_block one_col log">
-            <label for="LOG_FOLDER">
-                <div class="label">Logs folder</div>
+            <label for="LOG_FILE">
+                <div class="label">Logs file</div>
                 <div class="info">
-                    Path to the folder where the logs are written
+                    Path to the file where the logs are written
                 </div>
             </label>
-            <input type="text" name="LOG_FOLDER" value="<?php echo $data['LOG_FOLDER']; ?>" id="LOG_FOLDER">
-            <!-- <?php if (isset($log_folder_writable) && !$log_folder_writable) echo '<div class="msg_error folder_not_writable">Log folder is not writable at '.$data['LOG_FOLDER'].'<br><b>Change rights and give access to user www-data before continuing please.</b></div>'; ?> -->
+            <input type="text" name="LOG_FILE" value="<?php echo $data['LOG_FILE']; ?>" id="LOG_FILE">
+            <?php if (isset($missing_log_file) && !$missing_log_file) echo '<div class="msg_error log_file_missing">You need to put the path to a file here.</div>'; ?>
+            <?php if (isset($log_file_writable) && !$log_file_writable) echo '<div class="msg_error log_file_not_writable">Log file is not writable at '.$data['LOG_FILE'].'<br><b>Change rights and give access to user www-data before continuing please.</b></div>'; ?>
         </div>
 
         <div class="sub_block one_col log">

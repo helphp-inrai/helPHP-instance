@@ -23,7 +23,7 @@ $config_values = [
         'BASE_URL'=>'https://helPHP.com/',
         'ADMIN_FOLDER'=>'admin',
         
-        'LOG_FOLDER'=>'/var/log/',
+        'LOG_FILE'=>'/var/log/apache2/helPHP.log',
         'ROOT_FS'=>'/home/default/fs/',
 
         'LIBTRANSLATE_URL'=>'http://libretranslate:5000/',
@@ -52,8 +52,9 @@ foreach($config_values as $type => $list){
             $data[$name] = trim($data[$name]);
 
             // some special cases
-            if ($name == 'HELPHP_FOLDER' || $name == 'HOME_FOLDER' || $name == 'LOG_FOLDER' || $name == 'ROOT_FS') if ($data[$name] != '') $data[$name] = '/'.trim($data[$name], '/').'/';
+            if ($name == 'HELPHP_FOLDER' || $name == 'HOME_FOLDER' || $name == 'ROOT_FS') if ($data[$name] != '') $data[$name] = '/'.trim($data[$name], '/').'/';
             if ($name == 'SITE_FOLDER' || $name == 'ADMIN_FOLDER') if ($data[$name] != '') $data[$name] = trim($data[$name], '/').'/';
+            if ($name == 'LOG_FILE') if ($data[$name] != '') $data[$name] = '/'.trim($data[$name], '/');
         }
 
         if ($type == 'boolean') {
@@ -211,13 +212,17 @@ if (is_writable($home_folder)){
     $err = true;
 }
 
-// check if script can write in log folder
-// $log_folder_writable = false;
-// if ($data['LOG_FOLDER'] && is_writable($data['LOG_FOLDER'])) {
-//     $log_folder_writable = true;
-// } else {
-//     $err = true;
-// }
+// check if script can write log file
+$missing_log_file = $data['LOG_FILE'] ? false : true;
+$log_file_writable = false;
+$parent = explode('/', $data['LOG_FILE']);
+array_pop($parent);
+$parent = implode('/', $parent);
+if (is_writable($parent)){
+    $log_file_writable = true;
+} else {
+    $err = true;
+}
 
 // stopping here will display the step to fix the bad data
 if (!$err) $install_step++;
