@@ -174,10 +174,20 @@ $db_root_password_jobs = (isset($_POST['db_root_password_jobs']) && $_POST['db_r
 $admin_user = (isset($_POST['admin_user']) && $_POST['admin_user']!='') ? $_POST['admin_user'] : '';
 $admin_pass = (isset($_POST['admin_pass']) && $_POST['admin_pass']!='') ? $_POST['admin_pass'] : '';
 
+// will be set to true if there is a problem, at each step end, check if it's false to continue with the next step or not
+$err = false;
+
 // verify the access rights on home folder
 $home_folder_not_writable = false;
 if (is_writable($home_folder)){
     $home_folder_writable = true;
+} else {
+    $err = true;
+}
+// verify the access rights on config folder and files
+$config_files_are_writable = false;
+if (is_writable($home_folder.'config/') && is_writable($home_folder.'config/main.php') && is_writable($home_folder.'config/db.php')) {
+    $config_files_are_writable = true;
 } else {
     $err = true;
 }
@@ -188,8 +198,6 @@ if ($launched_install) {
     return;
 }
 
-// will be set to true if there is a problem, at each step end, check if it's false to continue with the next step or not
-$err = false;
 $install_params = '';
 
 // before each step validating process, verify user has seen the step and has clicked on next button

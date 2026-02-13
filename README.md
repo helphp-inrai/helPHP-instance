@@ -19,7 +19,7 @@ To help you visualize how it work, here the relations between them :
 
 ![hphp-global.svg](images/hphp-global.svg)
 
-The more important to know is that all modules shared from the main repo, are called by an index.php file in admin/module_name or public_module_name folder, and if you have an exception to code or something to change, you can extend the module class in the index.php file and make it without doing any change in the main repo.
+The more important to know is that all modules shared from the main repo, are called by an index.php file in `admin/module_name` or `public/module_name folder`, and if you have an exception to code or something to change, you can extend the module class in the index.php file and make it without doing any change in the main repo.
 
 Like that you can keep up to date the main repo, host tons of project in the same server, and create exceptions when needed without breaking anything.
 
@@ -29,7 +29,7 @@ if you do not have setuped the necessary environnement, please take a look at th
 
 simply git clone this projet on your server and git clone [helphp main repo](https://gitlab.com/dateam2/helphp) somewhere else on the same server.
 
-If you have clone the instance in a folder ready to be served by your httpd service, just call the corresponding url for this folder + installscript.php to launch the install...
+If you have clone the instance in a folder ready to be served by your httpd service, just call the corresponding url for this folder to launch the install.
 
 
 # Documentation :

@@ -19,7 +19,7 @@ Pour vous aider à visualiser comment cela fonctionne, voici les relations entre
 
 ![hphp-global.svg](images/hphp-global.svg)
 
-Le plus important à savoir est que tous les modules partagés du dépôt principal sont appelés par un fichier index.php dans le dossier admin/module_name ou public_module_name, et si vous avez une exception à coder ou quelque chose à changer, vous pouvez étendre la classe du module dans le fichier index.php et le faire sans faire aucun changement dans le dépôt principal.
+Le plus important à savoir est que tous les modules partagés du dépôt principal sont appelés par un fichier index.php dans le dossier `admin/module_name` ou `public/module_name`, et si vous avez une exception à coder ou quelque chose à changer, vous pouvez étendre la classe du module dans le fichier index.php et le faire sans faire aucun changement dans le dépôt principal.
 
 Comme ça, vous pouvez garder à jour le dépôt principal, héberger des tonnes de projets sur le même serveur, et créer des exceptions quand nécessaire sans casser quoi que ce soit.
 
@@ -29,7 +29,7 @@ Si vous n'avez pas configuré l'environnement nécessaire, veuillez regarder ce 
 
 Clonez simplement ce projet sur votre serveur avec git et clonez le [dépôt principal helphp](https://gitlab.com/dateam2/helphp) ailleurs sur le même serveur.
 
-Si vous avez cloné l'instance dans un dossier prêt à être servi par votre service httpd, appelez simplement l'url correspondante pour ce dossier + installscript.php pour lancer l'installation...
+Si vous avez cloné l'instance dans un dossier prêt à être servi par votre service httpd, appelez simplement l'url correspondante pour ce dossier pour lancer l'installation.
 
 # Documentation :
 

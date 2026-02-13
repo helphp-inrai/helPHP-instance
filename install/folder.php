@@ -12,7 +12,10 @@ global $data, $install_step, $helphp_folder_found, $log_folder_writable, $home_f
 
         <?php 
         if (!$home_folder_writable){
-            echo '<div class="msg_error home_folder_writable">The folder of your instance '.$home_folder.' is not writable ! You have to give access to www-data before continuing !</div>';
+            echo '<div class="msg_error home_folder_writable">The folder of your instance '.$home_folder.' is not writable ! You have to give access to www-data before continuing !<br><span class="cmd">sudo chown -R www-data:www-data '.$home_folder.'</span></div>';
+        }
+        if ($home_folder_writable && !$config_files_are_writable){
+            echo '<div class="msg_error config_files_writable">One or more config files of your instance found in '.$home_folder.'config/ are not writable ! You have to give access to www-data before continuing !<br><span class="cmd">sudo chown -R www-data:www-data '.$home_folder.'config/</span></div>';
         }
         ?>
 
