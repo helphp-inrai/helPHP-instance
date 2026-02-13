@@ -49,7 +49,7 @@ global $missing_site_name, $missing_domain, $missing_base_url, $missing_admin_fo
             <label for="ADMIN_FOLDER">
                 <div class="label">Admin (backfoffice) folder name</div>
                 <div class="info">
-                    We recommend to set a weird word here to make the hacker life a bit more difficult than writing admin to get to the backoffice.
+                    We recommend to set a weird word here to make hacker life a bit more difficult than writing admin to get to the backoffice.
                 </div>
             </label>
             <input type="text" name="ADMIN_FOLDER" value="<?php echo $data['ADMIN_FOLDER']; ?>" id="ADMIN_FOLDER">

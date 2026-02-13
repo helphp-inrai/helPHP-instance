@@ -42,7 +42,7 @@ global $data, $install_step, $helphp_folder_found, $log_folder_writable, $home_f
             <?php if (isset($missing_log_file) && $missing_log_file) echo '<div class="msg_error log_file_missing">You need to put the path to a file here.</div>'; ?>
             <?php if (isset($log_file_writable) && !$log_file_writable) {?> 
                 <div class="msg_error log_file_not_writable">
-                    Log file is not writable at '.$data['LOG_FILE'].'<br>
+                    Log file is not writable at <?php echo $data['LOG_FILE'];?><br>
                     <b>Change rights and give access to user www-data before continuing please.</b><br>
                     <span class="cmd">sudo touch <?php echo $data['LOG_FILE'];?></span><br><span class="cmd">sudo chown www-data:www-data <?php echo $data['LOG_FILE'];?></span>
                 </div>
