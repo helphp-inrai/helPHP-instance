@@ -26,7 +26,7 @@ class Config{
     const HELPHP_FOLDER = '/home/helPHP/';
 
     const ROOT_FS = '/home/default/';
-    const LOG_FOLDER = Config::HOME_FOLDER.'log/';
+    const LOG_FILE = '/var/log/helPHP.log';
     const APACHE_USER = 'www-data';
 
     const LIBTRANSLATE_URL = 'http://libretranslate:5000/';
