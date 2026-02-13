@@ -213,6 +213,10 @@ if (is_file($home_folder.'originals/installed.html')){
                 animation: rotate linear 1s infinite;
                 margin: auto;
             }
+            .cmd {
+                font-family: mono;
+                padding: 0 15px;
+            }
             @keyframes rotate {
                 0% {
                     animation-timing-function: ease-in;

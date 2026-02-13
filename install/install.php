@@ -213,13 +213,18 @@ if (is_writable($home_folder)){
 }
 
 // check if script can write log file
-$missing_log_file = $data['LOG_FILE'] ? false : true;
-$log_file_writable = false;
+$missing_log_file = ($data['LOG_FILE'] == '') ? true : false;
+
 $parent = explode('/', $data['LOG_FILE']);
 array_pop($parent);
 $parent = implode('/', $parent);
-if (is_writable($parent)){
-    $log_file_writable = true;
+$log_file_writable = true;
+if (!$missing_log_file) {
+    $test = @touch($data['LOG_FILE']);
+    if (!$test) {
+        $log_file_writable = false;
+        $err = true;
+    }
 } else {
     $err = true;
 }
