@@ -268,7 +268,7 @@ if (is_file($home_folder.'originals/installed.html')){
             }
         </script>
         <div class="step_list_container">
-            <div class="logo"><img src="../images/logo.svg" width="100%"></div>
+            <div class="logo"><img src="images/logo.svg" width="100%"></div>
             <ul class="step_list">
                 <?php 
                     $steps = [

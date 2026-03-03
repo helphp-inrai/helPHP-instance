@@ -41,13 +41,22 @@ $config_values = [
 ];
 // $data will store the values choose by the user
 $data = [];
+//testing if we can use new php version
+// $pversion=(version_compare(phpversion(), '8.3.0', '<'))?true:false;
+
 foreach($config_values as $type => $list){
     foreach($list as $name => $default_value){
         if ($type == 'string') {
             $data[$name] = isset($_POST[$name]) ? $_POST[$name] : false;
             if ($data[$name] === false) {
-                $data[$name] = ($CONFIG::{$name}!=null && $CONFIG::{$name}!='')? $CONFIG::{$name} : $default_value;
+                // if($pversion){
+                    //you should upgrade to 8.3+ !
+                    $data[$name] = (constant($CONFIG::class . "::{$name}") != null && constant($CONFIG::class . "::{$name}") != '' ) ? constant($CONFIG::class . "::{$name}") : $default_value;
+                // }else{
+                //     $data[$name] = ($CONFIG::{$name}!=null && $CONFIG::{$name}!='')? $CONFIG::{$name} : $default_value;
+                // }
             }
+            
 
             $data[$name] = trim($data[$name]);
 
@@ -60,7 +69,12 @@ foreach($config_values as $type => $list){
         if ($type == 'boolean') {
             $data[$name] = (isset($_POST[$name]) && intval($_POST[$name]) == 1) ? true : false;
             if (!isset($_POST['action']) && $data[$name] === false) {
-                $data[$name] = (!is_null($CONFIG::{$name})) ? $CONFIG::{$name} : $default_value;
+                // if($pversion){
+                    //you should upgrade to 8.3+ !
+                    $data[$name] = (!is_null(constant($CONFIG::class . "::{$name}"))) ? constant($CONFIG::class . "::{$name}") : $default_value;
+                // }else{
+                //     $data[$name] = (!is_null($CONFIG::{$name})) ? $CONFIG::{$name} : $default_value;
+                // }
             }
         }
     }
@@ -108,13 +122,23 @@ foreach($config_db_values as $type => $list){
     foreach($list as $name => $default_value){
         if ($type == 'string') {
             $data[$name] = isset($_POST[$name]) ? $_POST[$name] : false;
-            if ($data[$name] === false) $data[$name] = ($CONFIG_DB::{$name} !=null && $CONFIG_DB::{$name}!='') ? $CONFIG_DB::{$name} : $default_value;
+            // if($pversion){
+            //     //you should upgrade to 8.3+ !
+                if ($data[$name] === false) $data[$name] = (constant($CONFIG_DB::class . "::{$name}") != null && constant($CONFIG_DB::class . "::{$name}") != '' ) ? constant($CONFIG_DB::class . "::{$name}") : $default_value;
+            // }else{
+                // if ($data[$name] === false) $data[$name] = ($CONFIG_DB::{$name}!=null && $CONFIG_DB::{$name}!='')? $CONFIG_DB::{$name} : $default_value;
+            // }
         }
 
         if ($type == 'boolean') {
             $data[$name] = (isset($_POST[$name]) && intval($_POST[$name]) == 1) ? true : false;
             if (!isset($_POST['action']) && $data[$name] === false) {
-                $data[$name] = (!is_null($CONFIG_DB::{$name})) ? $CONFIG_DB::{$name} : $default_value;
+                // if($pversion){
+                    //you should upgrade to 8.3+ !
+                    $data[$name] = (!is_null(constant($CONFIG_DB::class . "::{$name}"))) ? constant($CONFIG_DB::class . "::{$name}") : $default_value;
+                // }else{
+                //     $data[$name] = (!is_null($CONFIG_DB::{$name})) ? $CONFIG_DB::{$name} : $default_value;
+                // }
             }
         }
     }
@@ -145,13 +169,23 @@ foreach($config_email_values as $type => $list){
     foreach($list as $name => $default_value){
         if ($type == 'string') {
             $data[$name] = isset($_POST[$name]) ? $_POST[$name] : false;
-            if ($data[$name] === false) $data[$name] = ($CONFIG_EMAIL::{$name} !=null && $CONFIG_EMAIL::{$name}!='') ? $CONFIG_EMAIL::{$name} : $default_value;
+            // if($pversion){
+                //you should upgrade to 8.3+ !
+                if ($data[$name] === false) $data[$name] = (constant($CONFIG_EMAIL::class . "::{$name}") != null && constant($CONFIG_EMAIL::class . "::{$name}") != '' ) ? constant($CONFIG_EMAIL::class . "::{$name}") : $default_value;
+            // }else{
+            //     if ($data[$name] === false) $data[$name] = ($CONFIG_EMAIL::{$name}!=null && $CONFIG_EMAIL::{$name}!='')? $CONFIG_EMAIL::{$name} : $default_value;
+            // }
         }
 
         if ($type == 'boolean') {
             $data[$name] = (isset($_POST[$name]) && intval($_POST[$name]) == 1) ? true : false;
             if (!isset($_POST['action']) && $data[$name] === false) {
-                $data[$name] = (!is_null($CONFIG_EMAIL::{$name})) ? $CONFIG_EMAIL::{$name} : $default_value;
+                // if($pversion){
+                    //you should upgrade to 8.3+ !
+                    $data[$name] = (!is_null(constant($CONFIG_EMAIL::class . "::{$name}"))) ? constant($CONFIG_EMAIL::class . "::{$name}") : $default_value;
+                // }else{
+                //     $data[$name] = (!is_null($CONFIG_EMAIL::{$name})) ? $CONFIG_EMAIL::{$name} : $default_value;
+                // }
             }
         }
     }
