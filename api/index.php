@@ -1,7 +1,7 @@
 <?php
 namespace helPHP\api;
 
-include_once('../config/main.php');
+include_once(dirname(__DIR__).'/config/main.php');
 include_once(\Config::HELPHP_FOLDER.'autoload.php');
 include_once(\Config::HELPHP_FOLDER.'libs/externals/Restserver.php');
 
