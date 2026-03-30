@@ -51,7 +51,7 @@ global $db_root_user_jobs, $db_root_password_jobs, $wrong_root_jobs, $missing_ro
             <input type="text" name="DB_TABLE_PREFIX" id="DB_TABLE_PREFIX" value="<?php echo $data['DB_TABLE_PREFIX']; ?>">
             <div></div>
             
-            <?php if (isset($missing_db) && $missing_db) echo '<div class="msg_error db_main">Missing field</div>'; ?>
+            <?php if (isset($missing_db) && $missing_db) echo '<div class="msg_error db_main">Missing field in main database information (Host name, Base name, Username or Password)</div>'; ?>
 
         </div>
 

@@ -2081,7 +2081,7 @@
                 {
                     "name": "value",
                     "type": "s",
-                    "value": "<div><img class=\\\"hlp_media image portrait\\\" src=\\\"http:\\\/\\\/localhost\\\/images\\\/logo-border.png\\\" alt=\\\"helPHP_Logo\\\" border=\\\"0\\\"  style=\\\"display: block; margin-left: auto; margin-right: auto;\\\" ><\\\/div><div style=\\\"text-align: center;\\\" >Hello world !<\\\/div>"
+                    "value": "<div><img class=\\\"hlp_media image portrait\\\" src=\\\"..\\\/..\\\/images\\\/logo-border.png\\\" alt=\\\"helPHP_Logo\\\" border=\\\"0\\\"  style=\\\"display: block; margin-left: auto; margin-right: auto;\\\" ><\\\/div><div style=\\\"text-align: center;\\\" >Hello world !<\\\/div>"
                 }
             ]
         },
