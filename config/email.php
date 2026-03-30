@@ -1,9 +1,9 @@
 <?php
 class Config_email {
 
-    const EMAIL_ADMIN = 'webmaster@helphp.com';
-    const EMAIL_CONTACT = 'contact@helphp.com';
-    const EMAIL_MAILING = 'contact@helphp.com';
+    const EMAIL_ADMIN = 'webmaster@helphp.org';
+    const EMAIL_CONTACT = 'contact@helphp.org';
+    const EMAIL_MAILING = 'contact@helphp.org';
 
     const SMTP_HOST = '';
     const SMTP_USER = '';

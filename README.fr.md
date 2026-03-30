@@ -25,9 +25,9 @@ Comme ça, vous pouvez garder à jour le dépôt principal, héberger des tonnes
 
 # Installation :
 
-Si vous n'avez pas configuré l'environnement nécessaire, veuillez regarder ce dépôt que nous avons préparé et sélectionnez votre saveur d'installation : [Installation d'environnement HelPHP](https://gitlab.com/dateam2/helphp-env-install)
+Si vous n'avez pas configuré l'environnement nécessaire, veuillez regarder ce dépôt que nous avons préparé et sélectionnez votre saveur d'installation : [Installation d'environnement HelPHP](https://github.com/helphp-inrai/helPHP-env-install)
 
-Clonez simplement ce projet sur votre serveur avec git et clonez le [dépôt principal helphp](https://gitlab.com/dateam2/helphp) ailleurs sur le même serveur.
+Clonez simplement ce projet sur votre serveur avec git et clonez le [dépôt principal helphp](https://github.com/helphp-inrai/helPHP) ailleurs sur le même serveur.
 
 Si vous avez cloné l'instance dans un dossier prêt à être servi par votre service httpd, appelez simplement l'url correspondante pour ce dossier pour lancer l'installation.
 

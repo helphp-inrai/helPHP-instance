@@ -25,9 +25,9 @@ Like that you can keep up to date the main repo, host tons of project in the sam
 
 # Installation :
 
-if you do not have setuped the necessary environnement, please take a look at this repo we've prepared and select your flavor of install : [HelPHP environment install](https://gitlab.com/dateam2/helphp-env-install)
+if you do not have setuped the necessary environnement, please take a look at this repo we've prepared and select your flavor of install : [HelPHP environment install](https://github.com/helphp-inrai/helPHP-env-install)
 
-simply git clone this projet on your server and git clone [helphp main repo](https://gitlab.com/dateam2/helphp) somewhere else on the same server.
+simply git clone this projet on your server and git clone [helphp main repo](https://github.com/helphp-inrai/helPHP) somewhere else on the same server.
 
 If you have clone the instance in a folder ready to be served by your httpd service, just call the corresponding url for this folder to launch the install.
 

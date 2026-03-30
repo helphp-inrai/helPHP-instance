@@ -68,7 +68,7 @@ foreach($config_values as $type => $list){
 
         if ($type == 'boolean') {
             $data[$name] = (isset($_POST[$name]) && intval($_POST[$name]) == 1) ? true : false;
-            if (!isset($_POST['action']) && $data[$name] === false) {
+            if (!isset($_POST['validate_step']) && $data[$name] === false) {
                 // if($pversion){
                     //you should upgrade to 8.3+ !
                     $data[$name] = (!is_null(constant($CONFIG::class . "::{$name}"))) ? constant($CONFIG::class . "::{$name}") : $default_value;
@@ -132,7 +132,7 @@ foreach($config_db_values as $type => $list){
 
         if ($type == 'boolean') {
             $data[$name] = (isset($_POST[$name]) && intval($_POST[$name]) == 1) ? true : false;
-            if (!isset($_POST['action']) && $data[$name] === false) {
+            if (!isset($_POST['validate_step']) && $data[$name] === false) {
                 // if($pversion){
                     //you should upgrade to 8.3+ !
                     $data[$name] = (!is_null(constant($CONFIG_DB::class . "::{$name}"))) ? constant($CONFIG_DB::class . "::{$name}") : $default_value;
@@ -179,7 +179,7 @@ foreach($config_email_values as $type => $list){
 
         if ($type == 'boolean') {
             $data[$name] = (isset($_POST[$name]) && intval($_POST[$name]) == 1) ? true : false;
-            if (!isset($_POST['action']) && $data[$name] === false) {
+            if (!isset($_POST['validate_step']) && $data[$name] === false) {
                 // if($pversion){
                     //you should upgrade to 8.3+ !
                     $data[$name] = (!is_null(constant($CONFIG_EMAIL::class . "::{$name}"))) ? constant($CONFIG_EMAIL::class . "::{$name}") : $default_value;
